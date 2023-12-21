@@ -1,0 +1,71 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Itim', cursive;
+}
+
+
+.mainDiv{
+    border: 2px solid #46664d;
+    border-radius: 5px;
+    width: 600px;
+    height: 300px;
+    background-color: #46664d;
+    margin-top: 30px;
+}
+
+#row1{
+
+    margin-left: 170px;
+    margin-top: 20px;
+    display: block;
+    color: rgb(19, 19, 19);
+    font-weight: 900;
+    font-size: 180%;
+    text-shadow: 0px 2px 6px rgba(128, 15, 37, 1);
+}
+
+#form{
+    margin-top: 40px;
+    margin-left: 160px;
+}
+
+
+.mainbutton{
+    margin-left: 30px;
+    margin-top: 6px;
+    
+}
+
+
+button[type="clear"]{
+    margin-left: 60px;
+    background-color: rgb(61, 25, 241);
+}
+button[type="clear"]:hover{background-color: rgb(253, 17, 103);
+width: 40px;}
+button[type="submit"]{background-color:rgb(61, 25, 241);}
+button[type="submit"]:hover{background-color: rgb(253, 17, 103);
+    width: 50px;}
+
+.Secdiv{
+    margin-top:40px ;
+    display: flex;list-style:none;
+    width: 200%;    
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 180px;
+}
+
+li{display: inline; padding-left: 20px;}
+
+input[type="date"]{
+    color: rgb(255 13 13);
+    border: 1px solid red;
+    box-shadow: 9px 5px 12px 7px rgb(6 6 7 / 10%), -6px 7px 15px 0px rgb(19 19 19 / 10%);
+
+   
+
